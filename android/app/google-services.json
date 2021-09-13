@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657354456424",
+    "project_id": "ninja-brew-crew-90e07",
+    "storage_bucket": "ninja-brew-crew-90e07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657354456424:android:4bf23fc97526fc5d8ceadd",
+        "android_client_info": {
+          "package_name": "com.xtrafriend.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657354456424-ijcnn40c322na2h57d3fr53pa7eqhrsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7yejhSzRnRfy2b9gq-2fIrLT6kxtRxEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657354456424-ijcnn40c322na2h57d3fr53pa7eqhrsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
