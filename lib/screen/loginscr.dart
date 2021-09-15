@@ -181,60 +181,6 @@ class _loginscrState extends State<loginscr> {
   }
 }
 
-/*
-TextButton(
-      onPressed: () => showDialog<String>(
-        context: context,
-        builder: (BuildContext context) => AlertDialog(
-          title: const Text('AlertDialog Title'),
-          content: const Text('AlertDialog description'),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () => Navigator.pop(context, 'Cancel'),
-              child: const Text('Cancel'),
-            ),
-            TextButton(
-              onPressed: () => Navigator.pop(context, 'OK'),
-              child: const Text('OK'),
-            ),
-          ],
-        ),
-      ),
-      child: const Text('Show Dialog'),
-    );
-  }
-            child: TextField(
-               decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: 'Enter Password Here',
-                ),
-                autofocus: false,
-                obscureText: true,
-                  )
-
-                  try {
-      user = await _auth.signInWithEmailAndPassword(
-          email: emailController.text, password: passwordController.text);
-    } catch (e) {
-      print(e.toString());
-    } finally {
-      if (user != null) {
-        // sign in successful!
-        // ex: bring the user to the home page
-      } else {
-        // sign in unsuccessful
-        // ex: prompt the user to try again
-      }
-
-
-Text(
-  'Hello, $_name! How are you?',
-  textAlign: TextAlign.center,
-  overflow: TextOverflow.ellipsis,
-  style: const TextStyle(fontWeight: FontWeight.bold),
-)
- */
-
 // todo stream - copy and try with new one
 // todo pretty - login button,
 // todo clean up & modularise, routes
